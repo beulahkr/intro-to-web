@@ -51,6 +51,7 @@ body{
 }
 #picture {
     border: 10px;
+    border-radius: 50%;
     border-style:solid;
     border-color:#334A51;
     margin: 20px;
