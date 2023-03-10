@@ -1,0 +1,125 @@
+h1 {
+    color: #00829A;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #334a5125;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    font-size: 45pt;
+}
+h2 {
+    color:#7BB4C4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #334a516b;
+    text-align: center;
+    margin: 20px;
+    padding:10px;
+    font-size: 20pt;
+   
+}
+h3 {
+    color: #00829A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:#7BB4C4;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20pt;
+}
+p {
+    color: #334A51;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7bb4c468;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16pt;
+    
+}
+ul {
+    color: #334A51;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7BB4C4;
+    margin: 40px;
+    padding: 20px;
+    font-size: 16pt;
+    }
+body{
+    background-color: #7BB4C4;
+   
+}
+#picture {
+    border: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:#334a5188;
+    margin: 20px;
+    
+    
+}
+#pictureContainer {
+    display:flex;
+    justify-content: center;
+}
+#menu {
+    display: flex;
+    margin: 20px;
+    background-color:#7BB4C4;
+    text-align: left;
+    justify-content: space-between;
+    
+
+}
+#menuBox {
+    border: 2px solid;
+    border-color:#334A51;
+    background-color:#334A51;
+    padding: 10px;
+    width:20%;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+#headingBox{
+    padding: 10px;
+    width:auto;
+}
+
+#formContainer{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: column; 
+}
+#formLabel{
+    color: #00829A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:#7BB4C4;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14pt;
+
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #334A51;
+  }
